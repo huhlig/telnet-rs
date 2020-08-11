@@ -1,0 +1,12 @@
+[package]
+name = "telnet"
+edition = "2018"
+version = "0.1.0"
+authors = ["Hans W. Uhlig <huhlig@gmail.com>"]
+description = "Async Telnet Library"
+
+[dependencies]
+bytes = "0.5"
+futures = "0.3"
+nom = "6.0.0-alpha1"
+tracing = "0.1"
